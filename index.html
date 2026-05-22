@@ -1,33 +1,41 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
-<body>
-    <div class="container">
-        <section>
-            <div id="header-section">
-            <header>
-                <h1>GITHUB PROFILE FINDER</h1>
 
-            <div>
-                <input type="search" id="search"  placeholder="Enter a GitHub UserName" required>
-                <button type="submit" id="search-btn">Search</button>
-            </div>
+<body>
+    <main class="container">
+        <section class="content-section">
+            <header>
+                <h1 class="main-heading">GITHUB PROFILE FINDER</h1>
+                <div class="search-box">
+                    <div class="input-wrapper">
+                        <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                        <input type="search" id="search" placeholder="Enter a GitHub UserName" required>
+
+                    </div>
+                    <button type="submit" id="search-btn">Search</button>
+                </div>
             </header>
-            </div>
             <main>
-                <section id="profile-card"></section>
+                <section id="profile-card">
+
+
+                </section>
                 <section id="repo-card"></section>
 
             </main>
 
 
         </section>
-        
-        
-    </div>
+
+
+    </main>
 </body>
+
 </html>
