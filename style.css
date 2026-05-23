@@ -119,5 +119,17 @@
 
 
 #profile-card{
-    
+    max-width:1000px;
+    min-height:500px;
+    background-color:#30363d;
+    margin:auto;
+    display:flex;
+    font-size:large;
+    text-align:center;
+}
+
+#profile-image{
+    max-width:220px;
+    margin:2%;
+
 }
